@@ -54,9 +54,8 @@ CREATE TABLE club_member_info_cleaned (
 ```sql
   UPDATE club_member_info_cleaned 
   SET age = (
-		    SELECT MEDIAN(age) 
-		    FROM club_member_info_cleaned 
-		    WHERE age <> '' AND age <= 100
-			)
+	     SELECT MEDIAN(age) 
+	     FROM club_member_info_cleaned 
+	     )
  WHERE age = '' or age > 100
 ```
