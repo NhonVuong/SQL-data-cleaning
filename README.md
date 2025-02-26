@@ -1,5 +1,6 @@
 - Đây là bài thực hành 3.3 của tôi.
 - Select dữ liệu và uplpoad lên Github. File được upload là .csv
+- Lấy ra 10 dòng đầu tiên
 - Câu lệnh SQL:
 ```sql
 SELECT * 
